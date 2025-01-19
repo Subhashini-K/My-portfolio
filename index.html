@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subhashini K - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/v4/assets/font-awesome/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="./images/logo.png" alt="SUBHASHINI K" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Milestones</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <img class="fas"
+              width="30"
+              height="30" 
+              src="https://img.icons8.com/ffffff/ios-filled/50/delete-sign--v1.png"
+              onclick="closemenu()"
+              alt="delete-sign--v1"
+            />
+          </ul>
+          <img class="fas"
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ffffff/ios-filled/50/menu--v1.png"
+            onclick="openmenu()"
+            alt="menu--v1"
+          />
+        </nav>
+        <div class="header-text">
+          <p class="animate">FULL STACK DEVELOPER</p>
+          <h1>Hi, I'm <span>Subhashini</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="./images/podium.jpeg" width="400px" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm a passionate and optimistic second-year Computer Science
+              Engineering student with a strong enthusiasm for technology and
+              problem-solving. I aspire to become a skilled Full Stack Developer
+              and am driven by a desire to build impactful, scalable web
+              applications that solve real-world problems. <br />
+              My journey is fueled by curiosity, a commitment to learning, and a
+              belief in dreaming big!⭐
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2027</span> <br />Sri Eshwar College of
+                  Engineering B.E(CSE)
+                </li>
+                <li>
+                  <span>2020 - 2022</span> <br />St.Joseph's
+                  Matric.Hr.Sec.School
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span><br />C | C++ | Java | Python |
+                  Javascript
+                </li>
+                <li>
+                  <span>Technologies/Frameworks</span><br />HTML5 | CSS3 | React
+                </li>
+                <li>
+                  <span>Tools</span><br />VScode| Git | Github | Postman |
+                  Eclipse | Canva
+                </li>
+                <li><span>Database</span><br />Mysql | MongoDB</li>
+                <li><span>Core Concepts</span><br />OOPS | DSA | DBMS</li>
+                <li>
+                  <span>Soft Skills</span><br />Collaboration | Communication |
+                  Problem - solving | Creative Thinking
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------projects------------->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <!-- <div class="work">
+            <img class="project-image" src="./images/trackBuddy.jpg" />
+            <div class="layer">
+              <h3>TrackBuddy</h3>
+              <p>
+                TrackBuddy is a mobile application designed to enhance the
+                experience of day scholars by providing real-time tracking of
+                college buses. With its user-friendly interface, TrackBuddy
+                allows students to easily monitor bus locations and estimated
+                arrival times, helping them plan their schedules more
+                effectively
+                <br /><br />
+              </p>
+              <a href="#"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/ff004f/external-link.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div> -->
+          <div class="work">
+            <img class="project-image" src="./images/weather.png" />
+            <div class="layer">
+              <h3>StratoCast</h3>
+              <p>
+                StratoCast is a simple weather app built using React and the
+                OpenWeatherMap API. It allows users to search for the current
+                weather conditions of any city worldwide
+                <br /><br /><b
+                  >Tools used: VSCode, React ,Vite ,<br />
+                  REST API, Postman, Git, GitHub</b
+                >
+              </p>
+              <a href="https://weather-app-my-first-react-project-subhashini-ks-projects.vercel.app/" target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/ff004f/external-link.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="project-image" src="./images/trackbuddy.png" />
+            <div class="layer">
+              <h3>TrackBuddy</h3>
+              <p>
+                TrackBuddy is a mobile application designed to enhance the
+                experience of day scholars by providing real-time tracking of
+                college buses.
+                <br /><br /><b
+                  >Tools used: VSCode, Node.js, Flutter, <br />
+                  Firebase , REST API, Postman, Git, GitHub</b
+                >
+              </p>
+              <a href="https://play.google.com/store/apps/details?id=com.trackbuddy.sece&pcampaignid=web_share" target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/ff004f/external-link.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="project-image" src="./images/event.jpeg" />
+            <div class="layer">
+              <h3>EventFlow</h3>
+              <p>
+                EventFlow is an event management project that manages event
+                details, volunteer attendance, feedback, report generation . It
+                allows users to insert, retrieve, and update events, track
+                volunteers, collect feedback, and generate event reports.
+                <br /><br /><b>Tools used : Java, MySql, Eclipse, JDBC</b>
+              </p>
+
+              <a href="https://github.com/Subhashini-K/EventFlow---Event-Management-System" target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/github.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="project-image" src="./images/hotel.png" />
+            <div class="layer">
+              <h3>ReserVault</h3>
+              <p>
+                ReserVault is a Java-based application for managing hotel
+                reservations efficiently. Whether you’re running a small inn or
+                a boutique hotel, this system simplifies the reservation
+                process, enhances guest management, and keeps your business
+                organized.
+                <br /><br /><b>Tools used : Java, MySql, Eclipse, JDBC</b>
+              </p>
+              <a href="https://github.com/Subhashini-K/ReserVault---Hotel-Reservation-System" target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/github.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- Achievements -->
+    <div id="projects">
+      <div id="achievements" class="container">
+        <h1 class="sub-title">Milestones</h1>
+        <div class="work-list">
+          <div class="work">
+            <img class="project-image" src="./images/appPoster.png" />
+            <div class="layer">
+              <h3>TrackBuddy App Launch</h3>
+              <p class="text1">
+                We successfully launched the TrackBuddy app during our college's
+                fresher inauguration, showcasing our innovative solution for
+                real-time college bus tracking.
+              </p>
+
+              <a
+                href="https://drive.google.com/file/d/1sPNyS0ZJ-gZXAEBYSWQxEVR7ROuqklvK/view?usp=sharing"
+                target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/ff004f/external-link.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="project-image" src="./images/hackathon.jpeg" />
+            <div class="layer">
+              <h3>Techfusion - 2024 </h3>
+              <p>
+                 1st Place in the SECE-TECH
+                Domain at the TechFusion Hackathon held at Sri Eshwar College of
+                Engineering on 26th April 2024, showcasing innovation and
+                technical expertise.
+              </p>
+              <!-- <a href="#"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/ff004f/external-link.png"
+                  alt="external-link"
+              /></a> -->
+            </div>
+          </div>
+        </div>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact"></div>
+    <div class="container">
+      <div class="row">
+        <div class="contact-container">
+          <div class="contact">
+            <h1 class="sub-title">Contact Me</h1>
+            <p style="display: flex; align-items: center">
+              <a href="mailto:subhashinikumar2004@gmail.com"
+                ><img
+                  width="30"
+                  height="30"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/gmail-new.png"
+                  alt="gmail-new"
+              /></a>
+              subhashinikumar2004@gmail.com
+            </p>
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/subhashinik01/"
+                target="_blank"
+                ><img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/linkedin.png"
+                  alt="linkedin"
+              /></a>
+              <a href="https://github.com/Subhashini-K"
+                ><img
+                  width="50"
+                  height="50"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/github.png"
+                  alt="github"
+              /></a>
+            </div>
+            <div class="cv-container">
+              <a
+                href="https://drive.google.com/file/d/1RuqS0ECk2buV9NvURIIYPBpuBzwEflST/view?usp=drive_link"
+                target="_blank"
+                class="btn btn2"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright © Subhashini. Made with ❤️ by Subhashini</p>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu= document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
