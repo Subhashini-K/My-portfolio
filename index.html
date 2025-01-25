@@ -22,15 +22,17 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#achievements">Milestones</a></li>
             <li><a href="#contact">Contact Me</a></li>
-            <img class="fas"
+            <img
+              class="fas"
               width="30"
-              height="30" 
+              height="30"
               src="https://img.icons8.com/ffffff/ios-filled/50/delete-sign--v1.png"
               onclick="closemenu()"
               alt="delete-sign--v1"
             />
           </ul>
-          <img class="fas"
+          <img
+            class="fas"
             width="30"
             height="30"
             src="https://img.icons8.com/ffffff/ios-filled/50/menu--v1.png"
@@ -65,24 +67,13 @@
             </p>
 
             <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('education')">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">
                 Education
               </p>
-              <p class="tab-links" onclick="opentab('skills')">Skills</p>
             </div>
-            <div class="tab-contents active-tab" id="education">
-              <ul>
-                <li>
-                  <span>2023 - 2027</span> <br />Sri Eshwar College of
-                  Engineering B.E(CSE)
-                </li>
-                <li>
-                  <span>2020 - 2022</span> <br />St.Joseph's
-                  Matric.Hr.Sec.School
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="skills">
+            
+            <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
                   <span>Languages</span><br />C | C++ | Java | Python |
@@ -100,6 +91,19 @@
                 <li>
                   <span>Soft Skills</span><br />Collaboration | Communication |
                   Problem - solving | Creative Thinking
+                </li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents " id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2027</span> <br />Sri Eshwar College of
+                  Engineering B.E(CSE)
+                </li>
+                <li>
+                  <span>2020 - 2022</span> <br />St.Joseph's
+                  Matric.Hr.Sec.School
                 </li>
               </ul>
             </div>
@@ -148,7 +152,9 @@
                   REST API, Postman, Git, GitHub</b
                 >
               </p>
-              <a href="https://weather-app-my-first-react-project-subhashini-ks-projects.vercel.app/" target="_blank"
+              <a
+                href="https://weather-app-my-first-react-project-subhashini-ks-projects.vercel.app/"
+                target="_blank"
                 ><img
                   width="24"
                   height="24"
@@ -170,7 +176,9 @@
                   Firebase , REST API, Postman, Git, GitHub</b
                 >
               </p>
-              <a href="https://play.google.com/store/apps/details?id=com.trackbuddy.sece&pcampaignid=web_share" target="_blank"
+              <a
+                href="https://play.google.com/store/apps/details?id=com.trackbuddy.sece&pcampaignid=web_share"
+                target="_blank"
                 ><img
                   width="24"
                   height="24"
@@ -191,7 +199,9 @@
                 <br /><br /><b>Tools used : Java, MySql, Eclipse, JDBC</b>
               </p>
 
-              <a href="https://github.com/Subhashini-K/EventFlow---Event-Management-System" target="_blank"
+              <a
+                href="https://github.com/Subhashini-K/EventFlow---Event-Management-System"
+                target="_blank"
                 ><img
                   width="24"
                   height="24"
@@ -212,7 +222,32 @@
                 organized.
                 <br /><br /><b>Tools used : Java, MySql, Eclipse, JDBC</b>
               </p>
-              <a href="https://github.com/Subhashini-K/ReserVault---Hotel-Reservation-System" target="_blank"
+              <a
+                href="https://github.com/Subhashini-K/ReserVault---Hotel-Reservation-System"
+                target="_blank"
+                ><img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/ff004f/ios-filled/50/github.png"
+                  alt="external-link"
+              /></a>
+            </div>
+          </div>
+          <div class="work">
+            <img class="project-image" src="./images/to-do.png" />
+            <div class="layer">
+              <h3>Listify</h3>
+              <p>
+                Listify is a sleek and modern task management application
+                designed to help users organize their daily activities
+                effortlessly. 
+                Listify transforms the task of managing to-dos into a delightful
+                experience. 
+                <br /><br /><b>Tools used : MongoDB, Express, React, Node.js</b>
+              </p>
+              <a
+                href="https://github.com/Subhashini-K/To-Do-List_MERN"
+                target="_blank"
                 ><img
                   width="24"
                   height="24"
@@ -255,12 +290,11 @@
           <div class="work">
             <img class="project-image" src="./images/hackathon.jpeg" />
             <div class="layer">
-              <h3>Techfusion - 2024 </h3>
+              <h3>Techfusion - 2024</h3>
               <p>
-                 1st Place in the SECE-TECH
-                Domain at the TechFusion Hackathon held at Sri Eshwar College of
-                Engineering on 26th April 2024, showcasing innovation and
-                technical expertise.
+                1st Place in the SECE-TECH Domain at the TechFusion Hackathon
+                held at Sri Eshwar College of Engineering on 26th April 2024,
+                showcasing innovation and technical expertise.
               </p>
               <!-- <a href="#"
                 ><img
@@ -345,12 +379,12 @@
     </script>
 
     <script>
-      var sidemenu= document.getElementById("sidemenu");
+      var sidemenu = document.getElementById("sidemenu");
 
-      function openmenu(){
+      function openmenu() {
         sidemenu.style.right = "0";
       }
-      function closemenu(){
+      function closemenu() {
         sidemenu.style.right = "-200px";
       }
     </script>
